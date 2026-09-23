@@ -20,6 +20,7 @@ bevy.workspace = true
 # Dev only: 'cargo run --features dev' turns on dynamic linking
 [features]
 dev = [
+    "bevy/debug",
     "bevy/dynamic_linking",
     "bevy/file_watcher",     # shader hot-reload, dev only
     "bevy/bevy_dev_tools",
